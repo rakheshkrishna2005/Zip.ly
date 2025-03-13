@@ -9,6 +9,11 @@
 - **Custom Aliases:** Create branded links for better recognition and engagement.  
 - **Intuitive Interface:** Simple and mobile-optimized for effortless navigation.
 
+## 📱 Application
+![Home](https://github.com/rakheshkrishna2005/Zip.ly/blob/main/img/1.png)
+![Features](https://github.com/rakheshkrishna2005/Zip.ly/blob/main/img/2.png)
+![Contact](https://github.com/rakheshkrishna2005/Zip.ly/blob/main/img/3.png)
+
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -87,7 +92,7 @@ http://localhost:8080
 ## 📦 Project Structure
 
 ```
-zip-ly/
+Zip.ly/
 ├── cmd/
 │   └── server/
 │       └── main.go           # Application entry point
