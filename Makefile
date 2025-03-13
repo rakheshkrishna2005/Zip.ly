@@ -26,7 +26,7 @@ test:
 # Database migration setup (requires golang-migrate)
 migrate-up:
 	@echo "Running database migrations..."
-	migrate -path migrations -database "postgresql://postgres:prk@localhost:5432/url_shortener?sslmode=disable" up
+	migrate -path migrations -database "${DATABASE_URL}" up
 
 migrate-down:
 	@echo "Rolling back database migrations..."
