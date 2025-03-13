@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Zip.ly
-=======
 # Zip.ly - URL Shortener
-
 
 ## 📝 Description
 
@@ -15,9 +11,6 @@ A comprehensive solution to help make every point of connection between your con
 
 ### ⏱️ Link Expiration
 Set custom expiration dates for your links to ensure they're only accessible for as long as you need them to be. Perfect for time-sensitive campaigns, limited-time offers, or temporary access to resources.
-
-### 📊 Analytics & Tracking
-Track engagement with your shortened URLs. Get insights into click counts, geographic locations, and other usage statistics to understand how your audience interacts with your content.
 
 ### 🎨 Custom Aliases
 Create branded, memorable links with custom aliases instead of random characters. Make your links more recognizable and increase click-through rates.
@@ -37,7 +30,6 @@ A clean, user-friendly interface that helps you create engaging, mobile-optimize
 ### Frontend
 - **HTML5/CSS3** - Structure and styling
 - **JavaScript** - Client-side functionality
-- **Font Awesome** - Icon library
 
 ### Architecture
 - Clean architecture with separation of concerns:
@@ -140,4 +132,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
->>>>>>> e26b1a1 (Initial commit)
