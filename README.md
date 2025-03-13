@@ -11,6 +11,8 @@
 
 ## 📱 Application
 ![Home](https://github.com/rakheshkrishna2005/Zip.ly/blob/main/img/1.png)
+![Home](https://github.com/rakheshkrishna2005/Zip.ly/blob/main/img/4.png)
+![Home](https://github.com/rakheshkrishna2005/Zip.ly/blob/main/img/5.png)
 ![Features](https://github.com/rakheshkrishna2005/Zip.ly/blob/main/img/2.png)
 ![Contact](https://github.com/rakheshkrishna2005/Zip.ly/blob/main/img/3.png)
 
