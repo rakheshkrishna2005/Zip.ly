@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zip.ly - URL Shortener</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -18,6 +21,7 @@
             <nav class="nav-links">
                 <a href="/" class="nav-item active">Home</a>
                 <a href="#about" class="nav-item">About</a>
+                <a href="#contact" class="nav-item">Contact</a>
             </nav>
         </div>
     </header>
@@ -25,39 +29,37 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1>Build stronger digital connections</h1>
+                <h1>Stronger digital connections online</h1>
                 <p class="hero-text">
                     Use our URL shortener to engage your audience and connect them to the right information. Build, edit, and track everything inside the Zip.ly Platform.
                 </p>
                 
                 <div class="url-card">
                     <h2>Shorten a long link</h2>
-                    <p class="subtitle">No credit card required.</p>
                     
                     <form id="shortenForm">
-                        <div class="form-group">
-                            <label for="originalUrl">Paste your long link here</label>
-                            <input type="url" id="originalUrl" name="originalUrl" required 
-                                   placeholder="https://example.com/my-long-url">
+                        <div class="main-input-group">
+                            <div class="form-group">
+                                <label for="originalUrl">Paste your long link here</label>
+                                <input type="url" id="originalUrl" name="originalUrl" required 
+                                       placeholder="Place your long URL here...">
+                            </div>
+                            <button type="submit" class="btn-primary">
+                                Shorten link
+                            </button>
                         </div>
                         
                         <div class="advanced-options">
                             <div class="form-group">
-                                <label for="customAlias">Custom back-half (optional)</label>
                                 <input type="text" id="customAlias" name="customAlias" 
-                                       placeholder="e.g., my-brand" maxlength="10">
-                                <small>Use only letters and numbers (3-10 characters)</small>
+                                       placeholder="Enter your custom alias here..." maxlength="10">
                             </div>
                             
                             <div class="form-group">
-                                <label for="expiresIn">Expires after (days)</label>
-                                <input type="number" id="expiresIn" name="expiresIn" value="30" min="1">
+                                <input type="number" id="expiresIn" name="expiresIn" 
+                                       placeholder="Enter days until it expires..." min="1">
                             </div>
                         </div>
-                        
-                        <button type="submit" class="btn-primary">
-                            Get your link for free <i class="fas fa-arrow-right"></i>
-                        </button>
                     </form>
                 </div>
                 
@@ -82,42 +84,74 @@
                 <div class="features-grid">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <i class="fas fa-link"></i>
+                            ✨
                         </div>
-                        <h3>URL Shortener</h3>
-                        <p>A comprehensive solution to help make every point of connection between your content and your audience more powerful.</p>
+                        <h3>Beautiful URLs</h3>
+                        <p>Create clean, professional, and memorable short links that enhance your brand's credibility and user trust.</p>
                         <a href="#" class="feature-link">
-                            Learn more <i class="fas fa-arrow-up-right-from-square"></i>
+                            Learn more <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                     
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <i class="fas fa-clock"></i>
+                            🎯
+                        </div>
+                        <h3>Custom Alias</h3>
+                        <p>Choose your own custom short URLs that reflect your brand or content. Make links more meaningful and memorable.</p>
+                        <a href="#" class="feature-link">
+                            Learn more <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            ⏱️
                         </div>
                         <h3>Link Expiration</h3>
-                        <p>Set custom expiration dates for your links to ensure they're only accessible for as long as you need them to be.</p>
+                        <p>Set custom expiration dates for your links. Perfect for temporary campaigns or time-sensitive content sharing.</p>
                         <a href="#" class="feature-link">
-                            Learn more <i class="fas fa-arrow-up-right-from-square"></i>
-                        </a>
-                    </div>
-                    
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h3>Ease of Use</h3>
-                        <p>Simple, intuitive interface that helps you create engaging, mobile-optimized short links in minutes.</p>
-                        <a href="#" class="feature-link">
-                            Learn more <i class="fas fa-arrow-up-right-from-square"></i>
+                            Learn more <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-                
-            
             </div>
         </section>
     </main>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>support@ziply.com</p>
+                        <a href="mailto:support@ziply.com" class="contact-link">Send email</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with us</p>
+                        <a href="https://www.linkedin.com/in/rakhesh-krishna-p/" target="_blank" class="contact-link">View Profile</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Check our code</p>
+                        <a href="https://github.com/rakheshkrishna2005" target="_blank" class="contact-link">View Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <footer>
         <div class="container">
@@ -133,7 +167,7 @@
                         <i class="fab fa-github"></i> GitHub
                     </a>
                     <a href="https://rakheshkrishna.vercel.app/" target="_blank" class="social-link">
-                        <i class="fas fa-globe"></i> Portfolio
+                        <i class="fas fa-globe"></i> Developer Portfolio
                     </a>
                 </div>
                 <p class="copyright">&copy; 2025 Zip.ly - Fast and reliable URL shortening</p>

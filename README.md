@@ -1,22 +1,13 @@
 # Zip.ly - URL Shortener
 
-## 📝 Description
+## 📝 Description  
+**Zip.ly** is a modern URL shortener that converts lengthy URLs into concise, shareable links. With a focus on clean architecture and user experience, Zip.ly offers easy link management and built-in analytics.
 
-Zip.ly is a modern URL shortening service that transforms long, unwieldy URLs into short, memorable links. Built with a clean architecture and a focus on user experience, Zip.ly helps you create stronger digital connections with your audience by providing easy-to-share links with built-in analytics.
-
-## ✨ Features
-
-### 🔗 URL Shortening
-A comprehensive solution to help make every point of connection between your content and your audience more powerful. Zip.ly generates short, easy-to-share links that redirect to your original URLs.
-
-### ⏱️ Link Expiration
-Set custom expiration dates for your links to ensure they're only accessible for as long as you need them to be. Perfect for time-sensitive campaigns, limited-time offers, or temporary access to resources.
-
-### 🎨 Custom Aliases
-Create branded, memorable links with custom aliases instead of random characters. Make your links more recognizable and increase click-through rates.
-
-### 🚀 Simple & Intuitive Interface
-A clean, user-friendly interface that helps you create engaging, mobile-optimized short links in minutes. No technical knowledge required.
+## ✨ Features  
+- **URL Shortening:** Quickly generate short, user-friendly links for seamless sharing.  
+- **Link Expiration:** Set custom expiry dates for time-sensitive campaigns or resources.  
+- **Custom Aliases:** Create branded links for better recognition and engagement.  
+- **Intuitive Interface:** Simple and mobile-optimized for effortless navigation.
 
 ## 🛠️ Tech Stack
 
